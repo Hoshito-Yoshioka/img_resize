@@ -10,9 +10,10 @@ Things to keep in mind when using this file:
   You can change this value to make any square you want.
   If you want to resize the image to a rectangle with different horizontal and vertical lengths, change the img.resize property.
   
-2.It is necessary to create the directory for retrieving the image in advance.If you do, please change the path to the destination file.
+2.This function will resize the image files stored in the directory "get_images", which has already been created.
+  If you want to refer to files from other directories, you need to change the path of "glob()".
   You do not need to create a directory to save the images.
   
 3.Versions
   Python --3.9.1
-  Pillow --9.0.1
+  Pillow --9.0.
