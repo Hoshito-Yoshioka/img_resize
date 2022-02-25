@@ -12,3 +12,7 @@ Things to keep in mind when using this file as is:
   
 2.It is necessary to create the directory for retrieving the image in advance.If you do, please change the path to the destination file.
   You do not need to create a directory to save the images.
+  
+3.Versions
+  Python --3.9.1
+  Pillow --9.0.1
